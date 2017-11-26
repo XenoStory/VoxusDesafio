@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: #333;
+    clear: both;
+}
+
+#linha-topo {
+    width: 100%;
+    height: 50px;
+    background-color: #ffbb00;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#linha-topo .logo {
+    float: left;
+    margin-left: 60px;
+}
+
+#linha-topo .logo a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#linha-topo .logo a:hover {
+    color: #f5f9b8;
+}
+
+#linha-topo .email {
+    width: 240px;
+    height: auto;
+    margin: 10px 0 0 150px;
+    float: left;
+}
+
+#linha-topo .email span {
+    padding-right: 8px;
+}
+
+#linha-topo .telefone {
+    width: 240px;
+    height: auto;
+    margin: 10px 0 0 50px;
+    float: left;
+}
+
+#linha-topo .telefone span {
+    padding-right: 8px;
+}
+
+#linha-topo .login {
+	width: 400px;
+	height: auto;
+	margin: 10px 0 0 50px;
+	float: left;
+}
+
+#linha-topo .login span {
+	padding-right: 8px;
+}
+
+#linha-topo .login a {
+	margin-left: 25px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+#linha-topo .telefone span {
+	padding-right: 8px;
+}
+
+#jumbo {
+    clear: both;
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+    color: #FFF;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: center;
+    
+}
+
+#jumbo p {
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+#jumbo h1 {
+    text-shadow: #ffe88c 1px 1px 1px;;
+}
+
+#conteudo {
+    width: 100%;
+    height: auto;
+    background-color: #E7E9EC;
+}
+
+#opcoes {
+	width: 400px;
+	height: 150px;
+	margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+#opcoes img {
+	margin: 25px 0 0 60px;
+	border:2px solid #333;
+	padding: 18px;
+	border-radius: 8px 8px 8px;
+	border-color: #333;
+}
+
+#nomeOpcoes {
+	width: 450px;
+	height: 100px;
+    margin: 0 auto;
+}
+
+#nomeOpcoes a {
+	color: #333;
+	font-size: 24px;
+	padding-left: 100px;
+	font-weight: bold;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	text-decoration: none;
+}
+
+#nomeOpcoes a:hover {
+	color: #FF8205;
+}
+
+footer {
+    width: 100%;
+    height: 95px;
+    background-color: #1B1B1B;
+    clear: both;
+    color: #666;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer strong {
+    color: #666;
+}
+
+footer .copyright {
+    float: left;
+    text-align: center;
+    padding: 40px 0 0 50px;
+}
+
+footer .paginas {
+    float: left;
+    text-align: center;
+    padding: 40px 0 0 150px;
+    color: #FFF;
+}
+
+footer .paginas a {
+    padding: 15px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer .paginas a:hover {
+    color: #FF8205;
+}
+
+#cadastro {
+    font-family: 'Montserrat', sans-serif;
+    width: 800px;
+    height: 800px;
+    padding-top: 50px;
+    margin: 0 auto;
+    color: #333;
+}
+
+#conteudoc {
+    width: 100%;
+    height: 700px;
+    background-color: #E7E9EC;
+}
+
+#formulario {
+    padding: 25px;
+    border-radius: 3px 3px 3px;
+    border: 1px solid #333;
+    margin-left: 100px;
+}
+
+#formulario a {
+    float: right;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#formulario a:hover {
+    color: #FF8205;
+}
+
+#consultar {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    visibility: hidden;
+}
+
+#consultar table {
+    border: 2px solid #CCC;
+    margin-top: 25px;
+}
+#consultar thead{
+	background-color: #FF8205;
+	color: #FFF;
+}
+
+#consultar th {
+    text-align: center;
+}
+
+#consultar a {
+    color: #333;
+    text-decoration: none;
+}
+
+#consultar a:hover {
+    color: #FF8205;
+}
+
+.numero {
+	background-color: #eaeaea;
+}
+
+.mensagem {
+	color: green;
+	font-weight: bold;
+}
+.erro {
+	color: red;
+	font-weight: bold;
+}
+
+#painel {
+	text-align: center;
+}
+
+#login-google {
+	width: 650px;
+	height: auto;
+	margin: 0 auto;
+	border: 1px solid #333;
+	border-radius: 3px 3px 3px;
+	margin-bottom: 10px;
+}
+
+#login-google p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	padding: 25px 0 0 25px;
+}
+
+#google {
+	width: 200px;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+	
